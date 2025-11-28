@@ -8,6 +8,19 @@ android {
     namespace = "com.example.lab14_widgets_cristhiansoto"
     compileSdk = 36
 
+    buildFeatures {
+        compose = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5"
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+
     defaultConfig {
         applicationId = "com.example.lab14_widgets_cristhiansoto"
         minSdk = 24
